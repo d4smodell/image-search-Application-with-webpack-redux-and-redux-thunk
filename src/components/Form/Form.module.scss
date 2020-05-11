@@ -1,0 +1,39 @@
+.form {
+    text-align: center;
+    margin: 10px 0 20px;
+}
+
+.title {
+    color: #fff;
+}
+
+.input {
+    width: 250px;
+    height: 35px;
+    padding: 5px;
+    border: none;
+    background: rgb(81, 90, 100);
+    color: #fff;
+    font-family: 'Special Elite', cursive;
+    font-size: 20px;
+    &::placeholder {
+        color: rgb(179, 179, 190);
+        font-size: 19px;
+      }
+}
+
+.btn {
+    font-size: 20px;
+    border: none;
+    height: 45px;
+    width: 100px;
+    color: rgb(226, 216, 216);
+    background: rgb(44, 44, 61);
+    margin-left: 10px;
+    font-family: 'Special Elite', cursive;
+    cursor: pointer;
+    transition: opacity .1s linear;
+    &:hover {
+        opacity: .7;
+    }
+}

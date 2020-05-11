@@ -1,0 +1,16 @@
+.footer {
+    padding: 10px;
+    z-index: 1;
+    color: #fff;
+    position: fixed;
+    top: 100;
+    bottom: 0;
+    a {
+        color: rgb(177, 184, 197);
+        text-decoration: none;
+        transition: all .1s linear;
+        &:hover {
+            border-bottom: 2px solid rgb(177, 184, 197);
+        }
+    }
+}
